@@ -18,3 +18,12 @@ body:
         - Complete (Pro)
     validations:
       required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: What version are you using?
+      description: Tell us the exact version you are using.
+      placeholder: For example, 2.003
+      value: ""
+    validations:
+      required: true
