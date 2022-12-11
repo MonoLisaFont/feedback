@@ -59,6 +59,5 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen in clear steps to follow.
       placeholder: Tell us what you see! Screenshots are helpful.
-      value: "A bug happened!"
     validations:
       required: true
