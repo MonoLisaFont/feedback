@@ -37,7 +37,7 @@ body:
         - Static (customized)
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: operating-system
     attributes:
       label: Operating system
@@ -45,7 +45,7 @@ body:
       placeholder: For example, MacOS Ventura 13.0.1
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: display-resolution
     attributes:
       label: Display resolution
