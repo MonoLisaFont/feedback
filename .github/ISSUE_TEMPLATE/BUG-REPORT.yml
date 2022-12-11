@@ -26,3 +26,14 @@ body:
       placeholder: "For example, 2.003"
     validations:
       required: true
+  - type: dropdown
+    id: variable-or-static
+    attributes:
+      label: What type of weights are you using?
+      description: Tell us which weights you downloaded
+      options:
+        - Default (non-customized)
+        - Variable (customized)
+        - Static (customized)
+    validations:
+      required: true
