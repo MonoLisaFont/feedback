@@ -1,4 +1,4 @@
-We welcome any feedback regarding technical issues (broken letters, ligatures not working, bad spacing etc). We will have a look and try to implement the changes in future versions.
+We welcome any feedback regarding technical issues (broken letters, ligatures not working, bad spacing etc). We will have a look and try to implement the changes in future versions. Before reporting, [make sure to check the FAQ](https://www.monolisa.dev/faq) as it covers answers to the most common questions (how to install etc.).
 
 ---
 
