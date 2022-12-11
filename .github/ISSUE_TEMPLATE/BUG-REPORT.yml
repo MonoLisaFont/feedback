@@ -7,3 +7,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      description: What edition are you using?
+      options:
+        - Basic (Personal)
+        - Plus
+        - Complete (Pro)
+    validations:
+      required: true
