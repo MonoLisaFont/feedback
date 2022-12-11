@@ -1,0 +1,67 @@
+name: Bug report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      description: What edition are you using?
+      options:
+        - Basic (Personal)
+        - Plus
+        - Complete (Pro)
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: What version are you using?
+      description: Tell us the exact version you are using.
+      placeholder: For example, 2.003
+      value: ""
+    validations:
+      required: true
+  - type: dropdown
+    id: variable-or-static
+    attributes:
+      label: What type of weights are you using?
+      description: Tell us which weights you downloaded
+      options:
+        - Default (non-customized)
+        - Variable (customized)
+        - Static (customized)
+    validations:
+      required: true
+  - type: textarea
+    id: operating-system
+    attributes:
+      label: Operating system
+      description: Tell us the exact name and version of your operating system
+      placeholder: For example, MacOS Ventura 13.0.1
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: display-resolution
+    attributes:
+      label: Display resolution
+      description: Tell us your display resolution if the issue is rendering related
+      placeholder: For example, 3072x1920
+      value: ""
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen in clear steps to follow.
+      placeholder: Tell us what you see! Screenshots are helpful.
+      value: "A bug happened!"
+    validations:
+      required: true
