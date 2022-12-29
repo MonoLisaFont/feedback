@@ -46,6 +46,14 @@ body:
     validations:
       required: true
   - type: input
+    id: editor
+    attributes:
+      label: Program
+      description: Tell us which program (editor, terminal, etc.) you are using
+      placeholder: For example, VS Code or iTerm 2
+    validations:
+      required: false
+  - type: input
     id: display-resolution
     attributes:
       label: Display resolution
