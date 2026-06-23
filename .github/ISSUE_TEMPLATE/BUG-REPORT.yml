@@ -13,9 +13,12 @@ body:
       label: Edition
       description: What edition are you using?
       options:
-        - Basic (Personal)
-        - Plus
-        - Complete (Pro)
+        - 2, Basic (Personal)
+        - 2, Plus
+        - 2, Complete (Pro)
+        - 3, Developer
+        - 3, Developer + Text
+        - 3, Creator
     validations:
       required: true
   - type: input
